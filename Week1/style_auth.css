@@ -1,0 +1,50 @@
+/* Authentication Style */
+
+.loginbox {
+    position: absolute;
+    width: 280px;
+    top: 25%;
+    left: 45%;
+}
+
+.loginbox h2 {
+    float: left;
+    font-size: 40px;
+    color: #424242;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #424242;
+}
+
+.textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #424242;
+    font-size: 16px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+
+.button {
+    width: 100%;
+    background: none;
+    border: 2px solid #424242;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 0;
+}
