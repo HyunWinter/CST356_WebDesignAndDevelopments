@@ -1,0 +1,40 @@
+/* Table Style */
+.instructor-table {
+    border-collapse: collapse;
+    font-size: 16px;
+    width: 100%;
+    /* 
+    border-radius: 5px 5px 0 0;
+    overflow: hidden; 
+    */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.20); 
+}
+
+.instructor-table thead tr {
+    background-color: #424242;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.instructor-table th,
+.instructor-table td {
+    padding: 12px 15px;
+}
+
+.instructor-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.instructor-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.instructor-table tbody tr:last-of-type {
+    border-bottom: 2px solid #424242;
+}
+
+.table_heading {
+    font-size: 25px;
+    color: #424242;
+}
