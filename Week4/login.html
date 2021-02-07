@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login Page</title>
+        <!--removeIf(production)-->
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/auth.css">
+        <script src="scripts/login.js"></script>
+        <!--endRemoveIf(production)-->
+
+        <!-- inject:css -->
+        <!-- endinject -->
+    </head>
+
+    <body>
+        <!-- Sidebar Menu START -->
+        <div class="sidebar">
+            <h1>Lab 1</h1>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="instructor.html">Instructor</a></li>
+                <li><a href="student.html">Student</a></li>
+                <li class="menu_bottom"><a href="login.html">Login</a></li>
+                <li class="menu_bottom"><a href="login.html">Logout</a></li>
+            </ul>
+        </div>
+        <!-- Sidebar Menu END -->
+
+        <!-- Leftside Contents START -->
+        <form class="loginbox">
+            <h2>Log In</h2>
+            <div class="textbox">
+                <input
+                    id="login_email"
+                    type="email" 
+                    placeholder="Email" 
+                    name="login_email" 
+                    value="@oit.edu" 
+                    autofocus="autofocus">
+            </div>
+            <span 
+                id='login_email_error'
+                class='error_msg' 
+                style='visibility:hidden'>
+                * Please enter a valid email.
+            </span>
+            <div class="textbox">
+                <input
+                    id="login_password"
+                    type="password" 
+                    placeholder="Password" 
+                    name="login_password" 
+                    value="">
+            </div>
+            <span 
+                id='login_password_error'
+                class='error_msg'
+                style='visibility:hidden'>
+                * Please enter a valid password.
+            </span>
+            <input
+                onclick="login_validate()"
+                class="button" 
+                type="button" 
+                name="login_submit" 
+                value="Register">
+        </form>
+        <!-- Leftside Contents END -->
+
+        <!-- inject:js -->
+        <!-- endinject -->
+    </body>
+</html>
