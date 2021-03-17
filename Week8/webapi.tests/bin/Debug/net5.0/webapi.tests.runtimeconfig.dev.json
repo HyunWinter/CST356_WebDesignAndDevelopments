@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Sea Hawk 1080\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Sea Hawk 1080\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ]
+  }
+}
